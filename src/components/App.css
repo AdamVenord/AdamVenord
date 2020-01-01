@@ -25,10 +25,6 @@
 }
 
 center {
-  background-image: url(https://media.deseretdigital.com/file/a10e5f8674?type=jpeg&quality=55&c=15&a=4379240d);
+  background-image: url("https://media.deseretdigital.com/file/a10e5f8674?type=jpeg&quality=55&c=15&a=4379240d");
   height: 2500px;
-}
-
-cardy {
-  background-color: black;
 }

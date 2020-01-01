@@ -4,7 +4,6 @@ import "./App.css"
 
 const About = () => (
   <>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <Header ui block header inverted as="h1">Things About Me</Header>
   <Reveal animated='move'>
     <Reveal.Content visible>

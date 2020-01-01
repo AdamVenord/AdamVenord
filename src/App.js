@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
 
+
 const App = () => (
   <>
   <center>
