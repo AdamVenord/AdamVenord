@@ -68,7 +68,7 @@ export default class Project extends Component {
       wrapped ui={false} 
       />
     <Card.Content>
-      <Card.Header>The Docotrs</Card.Header>
+      <Card.Header>The Doctors</Card.Header>
       <Card.Description>
         The Best Place To Make appointments
       </Card.Description>
