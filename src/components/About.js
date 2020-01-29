@@ -138,7 +138,7 @@ const About = () => (
   <br />
   <Reveal animated='move down'>
     <Reveal.Content visible >
-      <img src='https://m.media-amazon.com/images/M/MV5BNDhhZDIxMmUtNGY3YS00MTIwLTk3OTQtOGJlYmZlYWM2NWUzXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SY1000_CR0,0,1315,1000_AL_.jpg' 
+      <img src='https://oyster.ignimgs.com/wordpress/stg.ign.com/2014/01/Count_Orlok.jpg' 
         width="300px"
         height="300px"
         alt="fourth1"
@@ -153,7 +153,7 @@ const About = () => (
         alt="fourth"
         align="left"
       />
-    <Card color='red'>
+    <Card position="right" color='red'>
     <Card.Content header='Horror Is My Forte' />
     <Card.Content description="As a kid I was pretty scared of things. I loved and hated the
       feeling of being spooked. Nowadays I just love it. Anything horror is my bestfriend and

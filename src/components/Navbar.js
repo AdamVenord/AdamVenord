@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { } from 'react';
 import { Link, } from 'react-router-dom';
-import { Menu, Segment} from "semantic-ui-react";
+import { Menu, Segment, } from "semantic-ui-react";
 
 const Navbar = () => (
   <Segment inverted>
-    <Menu inverted >
+    <Menu inverted width="100%">
       <Link to="/home">
         <Menu.Item>
           Home
