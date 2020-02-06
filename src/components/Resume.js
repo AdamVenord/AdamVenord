@@ -1,14 +1,14 @@
 import React from 'react';
 import { Header, Image } from "semantic-ui-react";
+import Resume from "./Imgs/Resume.png"
 
 const About = () => (
   <>
-  <Header as="h1">Resume</Header>
-  <Image
-    src="https://i.kym-cdn.com/entries/icons/original/000/019/907/maxresdefault.jpg" 
-    fluid
-  />
-  </>
-)
+    <Header as="h1">Resume</Header>
+    <Image src={Resume} style={{ width: 850 }} />
+    <br />
+    <br />
+    </>
+    )
 
 export default About;
