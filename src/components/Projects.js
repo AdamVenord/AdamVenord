@@ -97,7 +97,7 @@ export default class Project extends Component {
       <Image 
         size='medium' 
         src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfR8ne1cmJ7cFndjBlVkJhgdMd6ejuJubgmdiVakyfAommhBjG&s'
-        href='https://github.com/AdamVenord?tab=repositories'
+        href='https://github.com/AdamVenord'
         target="_blank"
       />
     </Transition>
