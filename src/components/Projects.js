@@ -26,6 +26,7 @@ export default class Project extends Component {
     <Card color='green' image={"https://cdn.worldvectorlogo.com/logos/javascript.svg"} />
     <Card color='teal' image={"https://blog.mwpreston.net/wp-content/uploads/2018/09/ruby-logo.png"} />
     <Card color='blue' image={"https://www.stickpng.com/assets/images/58482f0ecef1014c0b5e4a7a.png"} />
+    <Card color='navy' image={"https://portworx.com/wp-content/uploads/2018/05/postgresql-logo.png"} />
   </Card.Group>
   <br />
   <hr />
@@ -41,8 +42,10 @@ export default class Project extends Component {
         My project where I made a pet store website
       </Card.Description>
       <br />
-      <Button color="black" 
-      href="https://github.com/AdamVenord/petsnstuff"
+      <Button 
+        color="black" 
+        href="https://github.com/AdamVenord/petsnstuff"
+        target="_blank"
       >View On Github</Button>
     </Card.Content>
   </Card>
@@ -57,8 +60,10 @@ export default class Project extends Component {
         It's kinda like myspace, tinder, and facebook all in one. Plus A great way to authenticate a user
       </Card.Description>
       <br />
-      <Button color="black" 
-      href="https://github.com/AdamVenord/my_dude"
+      <Button 
+        color="black" 
+        href="https://github.com/AdamVenord/my_dude"
+        target="_blank"
       >View On Github</Button>
     </Card.Content>
   </Card>
@@ -73,8 +78,10 @@ export default class Project extends Component {
         The Best Place To Make appointments
       </Card.Description>
       <br />
-      <Button color="black" 
-      href="https://github.com/AdamVenord/The_doctors"
+      <Button 
+        color="black" 
+        href="https://github.com/AdamVenord/The_doctors"
+        target="_blank"
       >View On Github</Button>
     </Card.Content>
   </Card>
@@ -90,7 +97,8 @@ export default class Project extends Component {
       <Image 
         size='medium' 
         src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfR8ne1cmJ7cFndjBlVkJhgdMd6ejuJubgmdiVakyfAommhBjG&s'
-        href='https://github.com/AdamVenord?tab=repositories'
+        href='https://github.com/AdamVenord'
+        target="_blank"
       />
     </Transition>
     

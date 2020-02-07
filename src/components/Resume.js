@@ -1,9 +1,14 @@
 import React from 'react';
-import { Header, } from "semantic-ui-react";
+import { Header, Image } from "semantic-ui-react";
+import Resume from "./Imgs/Resume.png"
 
 const About = () => (
-  <Header as="h1">Resume</Header>
-  
-)
+  <>
+    <Header as="h1">Resume</Header>
+    <Image src={Resume} style={{ width: 850 }} />
+    <br />
+    <br />
+    </>
+    )
 
 export default About;

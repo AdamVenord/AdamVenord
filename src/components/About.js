@@ -138,7 +138,7 @@ const About = () => (
   <br />
   <Reveal animated='move down'>
     <Reveal.Content visible >
-      <img src='https://m.media-amazon.com/images/M/MV5BNDhhZDIxMmUtNGY3YS00MTIwLTk3OTQtOGJlYmZlYWM2NWUzXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SY1000_CR0,0,1315,1000_AL_.jpg' 
+      <img src='https://oyster.ignimgs.com/wordpress/stg.ign.com/2014/01/Count_Orlok.jpg' 
         width="300px"
         height="300px"
         alt="fourth1"
@@ -153,7 +153,7 @@ const About = () => (
         alt="fourth"
         align="left"
       />
-    <Card color='red'>
+    <Card position="right" color='red'>
     <Card.Content header='Horror Is My Forte' />
     <Card.Content description="As a kid I was pretty scared of things. I loved and hated the
       feeling of being spooked. Nowadays I just love it. Anything horror is my bestfriend and
@@ -162,21 +162,30 @@ const About = () => (
     </Reveal.Content>
   </Reveal>
   <Header ui block header as="h2">Or Check Me Out Here As Well</Header>
+  <br />
   <Card.Group  itemsPerRow={6}>
     <Reveal animated='fade'>
       <Reveal.Content visible>
-        <Card raised image={"https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=300"} href="https://www.instagram.com/adamvenord/?hl=en"/>
+        <Card raised image={"https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=300"} href="https://www.instagram.com/adamvenord/?hl=en" target="_blank" />
       </Reveal.Content>
       <Reveal.Content hidden>
-        <Card raised image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2UhUoRJ_46Qfm5j3OFWi7ls5Q2t2mmYxcDIcLESOkKL2GUEOA&s'} href="https://www.instagram.com/adamvenord/?hl=en" />
+        <Card raised image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2UhUoRJ_46Qfm5j3OFWi7ls5Q2t2mmYxcDIcLESOkKL2GUEOA&s'} href="https://www.instagram.com/adamvenord/?hl=en" target="_blank" />
       </Reveal.Content>    
     </Reveal>
     <Reveal animated='fade'>
       <Reveal.Content visible>
-        <Card raised image={"https://stpetersburggroup.com/wp-content/uploads/2018/05/Facebook-Logo.png"} href="https://www.facebook.com/adam.venord" />
+        <Card raised image={"https://stpetersburggroup.com/wp-content/uploads/2018/05/Facebook-Logo.png"} href="https://www.facebook.com/adam.venord" target="_blank"/>
       </Reveal.Content>
       <Reveal.Content hidden>
-        <Card raised image={'https://media.wired.com/photos/5954a23f8e8cc150fa8ec722/master/pass/facebook_2015_logo_detail.jpg'} href="https://www.facebook.com/adam.venord" />
+        <Card raised image={'https://media.wired.com/photos/5954a23f8e8cc150fa8ec722/master/pass/facebook_2015_logo_detail.jpg'} href="https://www.facebook.com/adam.venord" target="_blank" />
+      </Reveal.Content>    
+    </Reveal>
+    <Reveal animated='fade'>
+      <Reveal.Content visible>
+        <Card raised image={"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png"} href="https://www.linkedin.com/in/adam-venord-51140319a/" target="_blank" />
+      </Reveal.Content>
+      <Reveal.Content hidden>
+        <Card raised image={'https://brandslogo.net/wp-content/uploads/2015/09/linkedin-black-logo.png'} href="https://www.linkedin.com/in/adam-venord-51140319a/" target="_blank" />
       </Reveal.Content>    
     </Reveal>
   </Card.Group>
