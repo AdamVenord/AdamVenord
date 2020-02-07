@@ -9,6 +9,7 @@ import { Container, } from "semantic-ui-react"
 import Navbar from './components/Navbar'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import Awards from './components/Awards'
 
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Loading} />
         <Route exact path="/home" component={Home} />
+        <Route exact path="/awards" component={Awards} />
         <Route path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/resume" component={Resume} />
