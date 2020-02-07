@@ -30,7 +30,7 @@ const Navbar = () => (
           Contact
         </Menu.Item>
       </Link>
-      <Link to="/contact">
+      <Link to="/awards">
         <Menu.Item>
           Awards And Certifications
         </Menu.Item>
