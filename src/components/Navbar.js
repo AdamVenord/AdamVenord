@@ -30,6 +30,11 @@ const Navbar = () => (
           Contact
         </Menu.Item>
       </Link>
+      <Link to="/contact">
+        <Menu.Item>
+          Awards And Certifications
+        </Menu.Item>
+      </Link>
     </Menu>
   </Segment>
 )
