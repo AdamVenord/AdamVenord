@@ -25,14 +25,14 @@ const Navbar = () => (
           Resume
         </Menu.Item>
       </Link>
-      <Link to="/contact">
-        <Menu.Item>
-          Contact
-        </Menu.Item>
-      </Link>
       <Link to="/awards">
         <Menu.Item>
           Awards And Certifications
+        </Menu.Item>
+      </Link>
+      <Link to="/contact">
+        <Menu.Item>
+          Contact
         </Menu.Item>
       </Link>
     </Menu>
