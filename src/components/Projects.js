@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Header, Card, Button, Divider, Transition, Image, } from "semantic-ui-react"
-import "./App.css"
+import "../App.css"
 
 export default class Project extends Component {
   state = { visible: false }

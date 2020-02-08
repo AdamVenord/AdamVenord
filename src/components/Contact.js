@@ -1,7 +1,6 @@
 import React from 'react'
 import { Header, Card, Reveal} from "semantic-ui-react"
-
-import "./App.css"
+import "../App.css"
 
 const Contact = () => (
   <>
