@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header, Image} from "semantic-ui-react"
-import "./App.css"
+import "../App.css"
 import Adam from "./Imgs/Adam.jpg"
 
 const Home = () => (
