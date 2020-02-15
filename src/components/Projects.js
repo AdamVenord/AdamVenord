@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Header, Card, Button, Divider, Transition, Image, } from "semantic-ui-react"
 import "../App.css"
+import labslogo from "./Imgs/labslogo.png"
+import c3p0 from "./Imgs/c3p0.png"
 
 export default class Project extends Component {
   state = { visible: false }
@@ -31,20 +33,44 @@ export default class Project extends Component {
   <br />
   <hr />
   <br />
-  <Card align="left">
+  <Card align="center">
     <Image 
-      src='https://www.thebalancecareers.com/thmb/R3f9MLIZr9TLhgnPkyd8EpD4YeI=/2121x1414/filters:fill(auto,1)/pet_store-509173668-5ad27f86c0647100380c4f0d.jpg' 
+      src={labslogo} 
       wrapped ui={false} 
       />
     <Card.Content>
-      <Card.Header>PetsNStuff</Card.Header>
+      <Card.Header>Hourglass-2</Card.Header>
       <Card.Description>
-        My project where I made a pet store website
+        <p>A Project managment app that I worked on with a team at devpoint labs</p>
+        <p>
+          Me personally I worked on stuff such as the styling of the
+          navbar and footer, the images, and and the functionality of the stop watch component 
+          that works throughout the whole thing 
+        </p>
       </Card.Description>
       <br />
       <Button 
         color="black" 
-        href="https://github.com/AdamVenord/petsnstuff"
+        href="https://github.com/devpointlabs/hourglass-2"
+        target="_blank"
+      >View On Github</Button>
+    </Card.Content>
+  </Card>
+  <Card align="center">
+    <Image 
+      src={c3p0}
+      wrapped ui={false} 
+      />
+    <Card.Content>
+      <Card.Header>Starwars Api</Card.Header>
+      <Card.Description>
+        This was my take home project where I tried to make api calls to a certain website
+        and get information for all the characters that I pulled from it.
+      </Card.Description>
+      <br />
+      <Button 
+        color="black" 
+        href="https://github.com/AdamVenord/The_doctors"
         target="_blank"
       >View On Github</Button>
     </Card.Content>
@@ -63,24 +89,6 @@ export default class Project extends Component {
       <Button 
         color="black" 
         href="https://github.com/AdamVenord/my_dude"
-        target="_blank"
-      >View On Github</Button>
-    </Card.Content>
-  </Card>
-  <Card align="right">
-    <Image 
-      src='https://www.bensonhenryinstitute.org/wp-content/uploads/2017/01/20182199-attractive-female-doctor-with-group-of-doctors-showing-thumbs-up-Stock-Photo.jpg' 
-      wrapped ui={false} 
-      />
-    <Card.Content>
-      <Card.Header>The Doctors</Card.Header>
-      <Card.Description>
-        The Best Place To Make appointments
-      </Card.Description>
-      <br />
-      <Button 
-        color="black" 
-        href="https://github.com/AdamVenord/The_doctors"
         target="_blank"
       >View On Github</Button>
     </Card.Content>
