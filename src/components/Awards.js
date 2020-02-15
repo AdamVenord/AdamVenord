@@ -41,26 +41,44 @@ const Awards = () => (
       Other Awards I Have
     </Header>
     <br />
-    <Image 
-      src="https://images.youracclaim.com/size/340x340/images/bf8594c5-1e2d-4e5b-ab28-09c46bd755a3/IC3_computing_fundamentals.png" 
-      style= {{ width: "300px", left: 400 }}
-      href="https://www.youracclaim.com/badges/bfc33508-6a07-4055-a044-6d2d41c0650d"
-      target="blank"
-    />
+    <Popup 
+      trigger={
+        <Image 
+          src="https://images.youracclaim.com/size/340x340/images/bf8594c5-1e2d-4e5b-ab28-09c46bd755a3/IC3_computing_fundamentals.png" 
+          style= {{ width: "300px", left: 400 }}
+          href="https://www.youracclaim.com/badges/bfc33508-6a07-4055-a044-6d2d41c0650d"
+          target="blank"
+        />
+      }
+    >
+      <Popup.Header>Pick Me Pick Me</Popup.Header>
+    </Popup>
     <br />
-    <Image 
-      src="https://images.youracclaim.com/size/340x340/images/b4c97286-a3ec-4c84-9095-518e1496869d/IC3_living_online.png" 
-      style= {{ width: "300px", }}
-      href="https://www.youracclaim.com/badges/b8c7a447-6380-4221-bef5-0f45f35816c5"
-      target="blank"
-    />
+    <Popup 
+      trigger={
+        <Image 
+          src="https://images.youracclaim.com/size/340x340/images/b4c97286-a3ec-4c84-9095-518e1496869d/IC3_living_online.png" 
+          style= {{ width: "300px", }}
+          href="https://www.youracclaim.com/badges/b8c7a447-6380-4221-bef5-0f45f35816c5"
+          target="blank"
+        />
+      }
+    >
+      <Popup.Header>Want To Know More? Click Me</Popup.Header>
+    </Popup>
     <br />
-    <Image 
-      src="https://images.youracclaim.com/size/340x340/images/8a8f3497-95a1-4e87-8cbf-4859dd4c4a85/IC3_key_applications.png" 
-      style= {{ width: "300px", right: 400 }}
-      href="https://www.youracclaim.com/badges/082892d2-cc59-4294-b7c9-8d1b61674849"
-      target="blank"
-    />
+    <Popup 
+      trigger={
+        <Image 
+          src="https://images.youracclaim.com/size/340x340/images/8a8f3497-95a1-4e87-8cbf-4859dd4c4a85/IC3_key_applications.png" 
+          style= {{ width: "300px", right: 400 }}
+          href="https://www.youracclaim.com/badges/082892d2-cc59-4294-b7c9-8d1b61674849"
+          target="blank"
+        />
+      }
+    >
+      <Popup.Header>I bet you wanna know if im legit huh</Popup.Header>
+    </Popup>
     <br />
   </>
 )
