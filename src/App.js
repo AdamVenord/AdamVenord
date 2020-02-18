@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Awards from './components/Awards'
+import "./App.css"
 
 
 const App = () => (
