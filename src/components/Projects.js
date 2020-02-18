@@ -94,12 +94,6 @@ export default class Project extends Component {
     </Card.Content>
   </Card>
   <br />
-  <Button
-    color="blue"
-    size="massive"
-    content={visible ? 'ʕ•ᴥ•ʔ' : 'View The Rest'}
-    onClick={this.toggleVisibility}
-  />
     <Divider hidden />
     <Transition visible={visible} animation='slide up' duration={1000}>
       <Image 
@@ -109,7 +103,18 @@ export default class Project extends Component {
         target="_blank"
       />
     </Transition>
-    
+    <br />
+    <br />
+    <br />
+    <Button
+      color="blue"
+      size="massive"
+      content={visible ? 'ʕ•ᴥ•ʔ' : 'View The Rest'}
+      onClick={this.toggleVisibility}
+    />
+    <br />
+    <br />
+    <br />    
   </>
   )
   }
