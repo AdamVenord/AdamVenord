@@ -1,14 +1,5 @@
 @import "./App.css";
 
-body {
-  background-image: url("https://media.deseretdigital.com/file/a10e5f8674?type=jpeg&quality=55&c=15&a=4379240d") !important;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
