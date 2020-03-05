@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Switch, } from 'react-router-dom'
 import Loading from './components/Loading'
 import Home from './components/Home'
+import NewHome from './components/NewHome'
 import About from './components/About'
 import Projects from './components/Projects'
 import NoMatch from './components/NoMatch'
@@ -21,6 +22,7 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Loading} />
         <Route exact path="/home" component={Home} />
+        <Route exact path="/newhome" component={NewHome} />
         <Route exact path="/awards" component={Awards} />
         <Route path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
