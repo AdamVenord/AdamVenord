@@ -5,7 +5,7 @@ import Resume from "./Imgs/Resume.png"
 const About = () => (
   <>
     <Header as="h1">Resume</Header>
-    <Image src={Resume} style={{ width: 850 }} />
+    <Image src={Resume} style={{ width: 850, border: "solid" }} />
     <br />
     <br />
     </>
