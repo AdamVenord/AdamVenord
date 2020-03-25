@@ -103,20 +103,26 @@ export default class Project extends Component {
   </Card>
   <Card align="center">
     <Image 
-      src='https://pmcvariety.files.wordpress.com/2016/02/myspace_logo.gif' 
+      src='https://wallpaperplay.com/walls/full/d/0/d/69808.jpg' 
       wrapped ui={false} 
       />
     <Card.Content>
-      <Card.Header>My Dude App</Card.Header>
+      <Card.Header>Rainy Days App</Card.Header>
       <Card.Description>
-        It's kinda like myspace, tinder, and facebook all in one. Plus A great way to authenticate a user
+        I made this because I wanted a quick way to be able to search the weather of any
+        place on the planet without the hassle of going deeply into a weather app somewhere else
       </Card.Description>
       <br />
       <Button 
         color="black" 
-        href="https://github.com/AdamVenord/my_dude"
+        href="https://github.com/AdamVenord/Rainy-days"
         target="_blank"
       >View On Github</Button>
+      <Button 
+        color="purple" 
+        href="https://nostalgic-blackwell-a410cd.netlify.com"
+        target="_blank"
+      >View Live Website</Button>
     </Card.Content>
   </Card>
   <br />
