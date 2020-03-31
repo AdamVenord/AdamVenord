@@ -99,6 +99,11 @@ export default class Project extends Component {
         href="https://github.com/AdamVenord/The_doctors"
         target="_blank"
       >View On Github</Button>
+      <Button 
+        color="purple" 
+        href="https://hopeful-bassi-f9c34b.netlify.com/"
+        target="_blank"
+      >View Live Website</Button>
     </Card.Content>
   </Card>
   <Card align="center">
