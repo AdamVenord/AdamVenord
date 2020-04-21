@@ -77,7 +77,7 @@ const Awards = () => (
         />
       }
     >
-      <Popup.Header>I bet you wanna know if im legit huh</Popup.Header>
+      <Popup.Header>I Bet You Wanna Know If I'm Legit Huh</Popup.Header>
     </Popup>
     <br />
   </>
